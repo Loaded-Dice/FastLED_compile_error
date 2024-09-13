@@ -5,8 +5,11 @@
 FASTLED_USING_NAMESPACE
 
 //#define DATA_PIN    D1 
-#define DATA_PIN    3
-//#define DATA_PIN    A1
+#define DATA_PIN    3 
+// #define DATA_PIN 3 is equivalent to D1 according to pin definitions for this board
+// Neither 3 nor D1 compiles
+// C:\Users\Tabula Rasa\AppData\Local\Arduino15\packages\Seeeduino\hardware\nrf52\1.1.8\variants\Seeed_XIAO_nRF52840_Sense\variant.h
+
 
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
